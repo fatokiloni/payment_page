@@ -15,7 +15,7 @@
     <h2>ZuriTraining Payment Form</h2>
     <form>
       <h4>Account</h4>
-      <div class="input-group" id="account-group">
+      <div class="input-group">
         <div class="input-box">
           <input type="text" placeholder="Full Name" required class="name">
           <i class="fa fa-user icon"></i>
@@ -26,24 +26,21 @@
         </div>
       </div>
       <div class="input-group">
-        <div class="input-box" id="email-box">
-          <input type="email" placeholder="email" required class="name" id="email">
+        <div class="input-box">
+          <input type="email" placeholder="email" required class="name">
           <i class="fa fa-envelope"></i>
         </div>
       </div>
 
-      <h4>Date of birth</h4>
       <div class="input-group">
         <div class="input-box">
+          <h4>Date of birth</h4>
           <input type="text" placeholder="DD" class="dob">
           <input type="text" placeholder="MM" class="dob">
           <input type="text" placeholder="YYY" class="dob">
         </div>
-      </div>
-
-      <h4>Gender</h4>
-      <div class="input-group">
         <div class="input-box">
+          <h4>Gender</h4>
           <input type="radio" name="gender" checked id="b1" class="radio">
           <label for="b1">Male</label>
           <input type="radio" name="gender" class="radio" id="b2">
@@ -51,9 +48,9 @@
         </div>
       </div>
 
-      <h4>Payment Details</h4>
-      <div class="input-group" id="payment-group">
+      <div class="input-group">
         <div class="input-box">
+          <h4>Payment Details</h4>
           <input type="radio" name="pay" id="bc1" checked class="radio">
           <label for="bc1">
             <span>
@@ -70,13 +67,13 @@
       </div>
 
       <div class="input-group">
-        <div class="input-box" id="card-box">
-          <input id="card-number" type="tel" class="name" placeholder="card number" required>
+        <div class="input-box">
+          <input type="tel" class="name" placeholder="card number" required>
           <i class="fa fa-credit-card icon"></i>
         </div>
       </div>
 
-      <div class="input-group" id="card-group">
+      <div class="input-group">
         <div class="input-box">
           <input type="tel" required placeholder="Card CVC">
           <i class="fa fa-user icon"></i>
@@ -95,8 +92,10 @@
         </div>
       </div>
 
-      <div class="input-box" id="button-container">
-        <button type="submit">Pay Now</button>
+      <div class="input-group">
+        <div class="input-box">
+          <button type="submit">Pay Now</button>
+        </div>
       </div>
 
     </form>
