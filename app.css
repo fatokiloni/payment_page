@@ -23,6 +23,9 @@ button {
     font-size: 18px;
     font-weight: bold;
 }
+input {
+    height: 20px;
+}
 #email, #card-number {
     width: 94%;
 }
@@ -35,6 +38,7 @@ button {
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
+    align-items: center;
 }
 #account-group .input-box,
 #card-group .input-box,

@@ -15,7 +15,7 @@
     <h2>ZuriTraining Payment Form</h2>
     <form>
       <h4>Account</h4>
-      <div class="input-group">
+      <div class="input-group" id="account-group">
         <div class="input-box">
           <input type="text" placeholder="Full Name" required class="name">
           <i class="fa fa-user icon"></i>
@@ -26,8 +26,8 @@
         </div>
       </div>
       <div class="input-group">
-        <div class="input-box">
-          <input type="email" placeholder="email" required class="name">
+        <div class="input-box" id="email-box">
+          <input type="email" placeholder="email" required class="name" id="email">
           <i class="fa fa-envelope"></i>
         </div>
       </div>
@@ -48,7 +48,7 @@
         </div>
       </div>
 
-      <div class="input-group">
+      <div class="input-group" id="payment-group">
         <div class="input-box">
           <h4>Payment Details</h4>
           <input type="radio" name="pay" id="bc1" checked class="radio">
@@ -67,13 +67,13 @@
       </div>
 
       <div class="input-group">
-        <div class="input-box">
-          <input type="tel" class="name" placeholder="card number" required>
+        <div class="input-box" id="card-box">
+          <input id="card-number" type="tel" class="name" placeholder="card number" required>
           <i class="fa fa-credit-card icon"></i>
         </div>
       </div>
 
-      <div class="input-group">
+      <div class="input-group" id="card-group">
         <div class="input-box">
           <input type="tel" required placeholder="Card CVC">
           <i class="fa fa-user icon"></i>
@@ -93,7 +93,7 @@
       </div>
 
       <div class="input-group">
-        <div class="input-box">
+        <div class="input-box" id="button-container">
           <button type="submit">Pay Now</button>
         </div>
       </div>
